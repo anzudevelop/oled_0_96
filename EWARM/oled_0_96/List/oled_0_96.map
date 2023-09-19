@@ -1,0 +1,477 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  19/Sep/2023  09:44:14
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Exe\oled_0_96.out
+#    Map file     =
+#        C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\List\oled_0_96.map
+#    Command line =
+#        -f "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Exe\oled_0_96.out.rsp"
+#        ("C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core\gpio.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core\i2c.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\Lib\src\lcd096.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core\main.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\EWARM\startup_stm32f103xb.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_cortex.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_dma.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_exti.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash_ex.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio_ex.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_i2c.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core\stm32f1xx_hal_msp.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_pwr.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc_ex.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim_ex.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core\stm32f1xx_it.o"
+#        "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\CMSIS\system_stm32f1xx.o"
+#        --no_out_extension -o "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\Exe\oled_0_96.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM\oled_0_96\List\oled_0_96.map"
+#        --config "C:\Users\TractAvt\Desktop\Мои
+#        устройства\bluepill\oled_0_96\EWARM/stm32f103xb_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M3 --fpu=None)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xec
+  .intvec            ro code   0x800'0000    0xec  startup_stm32f103xb.o [1]
+                             - 0x800'00ec    0xec
+
+"P1":                                      0x18b3
+  .text              ro code   0x800'00ec   0x55a  stm32f1xx_hal_i2c.o [5]
+  .text              ro code   0x800'0646    0x7e  lz77_init_single.o [7]
+  .text              ro code   0x800'06c4    0x9c  i2c.o [2]
+  .text              ro code   0x800'0760   0x4ae  stm32f1xx_hal_rcc.o [5]
+  .text              ro code   0x800'0c10     0xc  stm32f1xx_hal.o [5]
+  .text              ro code   0x800'0c1c   0x1c8  main.o [2]
+  .text              ro code   0x800'0de4    0x14  memset.o [7]
+  .text              ro code   0x800'0df8   0x1d0  stm32f1xx_hal_gpio.o [5]
+  .text              ro code   0x800'0fc8    0x40  stm32f1xx_hal.o [5]
+  .text              ro code   0x800'1008    0x24  stm32f1xx_hal.o [5]
+  .text              ro code   0x800'102c    0x30  gpio.o [2]
+  .text              ro code   0x800'105c   0x242  lcd096.o [4]
+  .text              ro code   0x800'12a0    0x28  stm32f1xx_hal.o [5]
+  .text              ro code   0x800'12c8    0x66  ABImemset.o [7]
+  .text              ro code   0x800'1330    0xa8  stm32f1xx_hal_cortex.o [5]
+  .text              ro code   0x800'13d8    0x30  stm32f1xx_hal_msp.o [2]
+  .rodata            const     0x800'1408    0x58  main.o [2]
+  .text              ro code   0x800'1460    0x38  zero_init3.o [7]
+  .text              ro code   0x800'1498    0x28  data_init.o [7]
+  .iar.init_table    const     0x800'14c0    0x20  - Linker created -
+  .text              ro code   0x800'14e0    0x1e  cmain.o [7]
+  .text              ro code   0x800'14fe     0x4  low_level_init.o [6]
+  .text              ro code   0x800'1502     0x4  exit.o [6]
+  .text              ro code   0x800'1508     0xa  cexit.o [7]
+  .text              ro code   0x800'1514    0x14  exit.o [8]
+  .text              ro code   0x800'1528    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'1544    0x14  stm32f1xx_it.o [2]
+  .text              ro code   0x800'1558    0x10  stm32f1xx_hal.o [5]
+  .text              ro code   0x800'1568    0x14  system_stm32f1xx.o [3]
+  .text              ro code   0x800'157c    0x10  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'158c     0x8  system_stm32f1xx.o [3]
+  .text              ro code   0x800'1594     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1598     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'159c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15a0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15a4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15a8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15ac     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15b0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15b4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15b8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15bc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15c0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15c4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15c8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15cc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15d0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15d4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15d8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15dc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15e0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15e4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15e8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15ec     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15f0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15f4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15f8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'15fc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1600     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1604     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1608     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'160c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1610     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1614     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1618     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'161c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1620     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1624     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1628     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'162c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1630     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1634     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'1638     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'163c     0x4  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'1640     0x0  zero_init3.o [7]
+  .rodata            const     0x800'1640     0x0  lz77_init_single.o [7]
+  Initializer bytes  const     0x800'1640   0x35f  <for P2-1>
+                             - 0x800'199f  0x18b3
+
+"P2", part 1 of 3:                          0x51c
+  P2-1                        0x2000'0000   0x51c  <Init block>
+    .data            inited   0x2000'0000   0x50c  lcd096.o [4]
+    .data            inited   0x2000'050c     0xc  stm32f1xx_hal.o [5]
+    .data            inited   0x2000'0518     0x4  system_stm32f1xx.o [3]
+                            - 0x2000'051c   0x51c
+
+"P2", part 2 of 3:                           0x58
+  .bss               zero     0x2000'051c    0x54  i2c.o [2]
+  .bss               zero     0x2000'0570     0x2  lcd096.o [4]
+  .bss               zero     0x2000'0572     0x2  main.o [2]
+                            - 0x2000'0574    0x58
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0578   0x400  <Block>
+    CSTACK           uninit   0x2000'0578   0x400  <Block tail>
+                            - 0x2000'0978   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'199f   0x801'ffff  0x1'e661
+  0x2000'0574  0x2000'0577       0x4
+  0x2000'0978  0x2000'4fff    0x4688
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x58:
+          0x2000'051c   0x58
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x35f (65% of destination):
+           0x800'1640  0x35f
+    1 destination range, total size 0x51c:
+          0x2000'0000  0x51c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\EWARM: [1]
+    startup_stm32f103xb.o       424
+    -------------------------------------------------
+    Total:                      424
+
+C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core: [2]
+    gpio.o                       48
+    i2c.o                       156                84
+    main.o                      456       88        2
+    stm32f1xx_hal_msp.o          48
+    stm32f1xx_it.o               20
+    -------------------------------------------------
+    Total:                      728       88       86
+
+C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\CMSIS: [3]
+    system_stm32f1xx.o           20       10        4
+    -------------------------------------------------
+    Total:                       20       10        4
+
+C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\Lib\src: [4]
+    lcd096.o                    578      852    1'294
+    -------------------------------------------------
+    Total:                      578      852    1'294
+
+C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver: [5]
+    stm32f1xx_hal.o             168        8       12
+    stm32f1xx_hal_cortex.o      168
+    stm32f1xx_hal_gpio.o        464
+    stm32f1xx_hal_i2c.o       1'370
+    stm32f1xx_hal_rcc.o       1'198
+    -------------------------------------------------
+    Total:                    3'368        8       12
+
+dl7M_tln.a: [6]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [7]
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    lz77_init_single.o          126
+    memset.o                     20
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      412
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         10
+    Linker created                        33    1'024
+-----------------------------------------------------
+    Grand Total:              5'568      991    2'420
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'14c0          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'14e0          --   Gb  - Linker created -
+?main                    0x800'14e1         Code  Gb  cmain.o [7]
+ADC1_2_IRQHandler        0x800'15dd         Code  Wk  startup_stm32f103xb.o [1]
+AHBPrescTable            0x800'156c   0x10  Data  Gb  system_stm32f1xx.o [3]
+APBPrescTable            0x800'158c    0x8  Data  Gb  system_stm32f1xx.o [3]
+BusFault_Handler         0x800'154b    0x2  Code  Gb  stm32f1xx_it.o [2]
+CAN1_RX1_IRQHandler      0x800'15e9         Code  Wk  startup_stm32f103xb.o [1]
+CAN1_SCE_IRQHandler      0x800'15ed         Code  Wk  startup_stm32f103xb.o [1]
+CSTACK$$Base            0x2000'0578          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0978          --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                         0x800'15c1         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel2_IRQHandler
+                         0x800'15c5         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel3_IRQHandler
+                         0x800'15c9         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel4_IRQHandler
+                         0x800'15cd         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel5_IRQHandler
+                         0x800'15d1         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel6_IRQHandler
+                         0x800'15d5         Code  Wk  startup_stm32f103xb.o [1]
+DMA1_Channel7_IRQHandler
+                         0x800'15d9         Code  Wk  startup_stm32f103xb.o [1]
+DebugMon_Handler         0x800'1551    0x2  Code  Gb  stm32f1xx_it.o [2]
+EXTI0_IRQHandler         0x800'15ad         Code  Wk  startup_stm32f103xb.o [1]
+EXTI15_10_IRQHandler     0x800'1635         Code  Wk  startup_stm32f103xb.o [1]
+EXTI1_IRQHandler         0x800'15b1         Code  Wk  startup_stm32f103xb.o [1]
+EXTI2_IRQHandler         0x800'15b5         Code  Wk  startup_stm32f103xb.o [1]
+EXTI3_IRQHandler         0x800'15b9         Code  Wk  startup_stm32f103xb.o [1]
+EXTI4_IRQHandler         0x800'15bd         Code  Wk  startup_stm32f103xb.o [1]
+EXTI9_5_IRQHandler       0x800'15f1         Code  Wk  startup_stm32f103xb.o [1]
+Error_Handler            0x800'0d6d    0x4  Code  Gb  main.o [2]
+FLASH_IRQHandler         0x800'15a5         Code  Wk  startup_stm32f103xb.o [1]
+HAL_Delay                0x800'12a1   0x28  Code  Wk  stm32f1xx_hal.o [5]
+HAL_GPIO_Init            0x800'0df9  0x19c  Code  Gb  stm32f1xx_hal_gpio.o [5]
+HAL_GetTick              0x800'0c11    0xc  Code  Wk  stm32f1xx_hal.o [5]
+HAL_I2C_Init             0x800'00ed  0x12e  Code  Gb  stm32f1xx_hal_i2c.o [5]
+HAL_I2C_Master_Transmit
+                         0x800'0227  0x116  Code  Gb  stm32f1xx_hal_i2c.o [5]
+HAL_I2C_MspInit          0x800'06f5   0x56  Code  Gb  i2c.o [2]
+HAL_IncTick              0x800'1559   0x10  Code  Wk  stm32f1xx_hal.o [5]
+HAL_Init                 0x800'1009   0x20  Code  Gb  stm32f1xx_hal.o [5]
+HAL_InitTick             0x800'0fc9   0x40  Code  Wk  stm32f1xx_hal.o [5]
+HAL_MspInit              0x800'13d9   0x30  Code  Gb  stm32f1xx_hal_msp.o [2]
+HAL_NVIC_SetPriority     0x800'1365   0x3a  Code  Gb  stm32f1xx_hal_cortex.o [5]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'134b   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [5]
+HAL_RCC_ClockConfig      0x800'0a75   0xf4  Code  Gb  stm32f1xx_hal_rcc.o [5]
+HAL_RCC_GetPCLK1Freq     0x800'0bb7   0x10  Code  Gb  stm32f1xx_hal_rcc.o [5]
+HAL_RCC_GetSysClockFreq
+                         0x800'0b7d   0x3a  Code  Gb  stm32f1xx_hal_rcc.o [5]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'0bfc   0x10  Data  Lc  stm32f1xx_hal_rcc.o [5]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'0c0c    0x2  Data  Lc  stm32f1xx_hal_rcc.o [5]
+HAL_RCC_OscConfig        0x800'0761  0x30c  Code  Gb  stm32f1xx_hal_rcc.o [5]
+HAL_SYSTICK_Config       0x800'139f   0x22  Code  Gb  stm32f1xx_hal_cortex.o [5]
+HardFault_Handler        0x800'1547    0x2  Code  Gb  stm32f1xx_it.o [2]
+I2C1_ER_IRQHandler       0x800'1615         Code  Wk  startup_stm32f103xb.o [1]
+I2C1_EV_IRQHandler       0x800'1611         Code  Wk  startup_stm32f103xb.o [1]
+I2C2_ER_IRQHandler       0x800'161d         Code  Wk  startup_stm32f103xb.o [1]
+I2C2_EV_IRQHandler       0x800'1619         Code  Wk  startup_stm32f103xb.o [1]
+I2C_IsAcknowledgeFailed
+                         0x800'0615   0x32  Code  Lc  stm32f1xx_hal_i2c.o [5]
+I2C_WaitOnBTFFlagUntilTimeout
+                         0x800'05b7   0x44  Code  Lc  stm32f1xx_hal_i2c.o [5]
+I2C_WaitOnFlagUntilTimeout
+                         0x800'043b   0x68  Code  Lc  stm32f1xx_hal_i2c.o [5]
+I2C_WaitOnMasterAddressFlagUntilTimeout
+                         0x800'04a3   0x9a  Code  Lc  stm32f1xx_hal_i2c.o [5]
+I2C_WaitOnTXEFlagUntilTimeout
+                         0x800'0573   0x44  Code  Lc  stm32f1xx_hal_i2c.o [5]
+LCD_Buffer              0x2000'000c  0x500  Data  Gb  lcd096.o [4]
+LCD_Char                 0x800'10dd   0x6e  Code  Gb  lcd096.o [4]
+LCD_Clear                0x800'10a1   0x3c  Code  Gb  lcd096.o [4]
+LCD_Goto                 0x800'1079   0x28  Code  Gb  lcd096.o [4]
+LCD_X                   0x2000'0008    0x1  Data  Gb  lcd096.o [4]
+LCD_Y                   0x2000'0009    0x1  Data  Gb  lcd096.o [4]
+MX_GPIO_Init             0x800'102d   0x30  Code  Gb  gpio.o [2]
+MX_I2C1_Init             0x800'06c5   0x30  Code  Gb  i2c.o [2]
+MemManage_Handler        0x800'1549    0x2  Code  Gb  stm32f1xx_it.o [2]
+NMI_Handler              0x800'1545    0x2  Code  Gb  stm32f1xx_it.o [2]
+OLED_init                0x800'1205   0x9a  Code  Gb  lcd096.o [4]
+OLED_num_to_str          0x800'1195   0x5e  Code  Gb  lcd096.o [4]
+OLED_string              0x800'1159   0x16  Code  Gb  lcd096.o [4]
+OLED_symbol              0x800'1171   0x24  Code  Gb  lcd096.o [4]
+PVD_IRQHandler           0x800'1599         Code  Wk  startup_stm32f103xb.o [1]
+PendSV_Handler           0x800'1553    0x2  Code  Gb  stm32f1xx_it.o [2]
+RCC_IRQHandler           0x800'15a9         Code  Wk  startup_stm32f103xb.o [1]
+RTC_Alarm_IRQHandler     0x800'1639         Code  Wk  startup_stm32f103xb.o [1]
+RTC_IRQHandler           0x800'15a1         Code  Wk  startup_stm32f103xb.o [1]
+Region$$Table$$Base      0x800'14c0          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'14e0          --   Gb  - Linker created -
+Reset_Handler            0x800'157d         Code  Wk  startup_stm32f103xb.o [1]
+SPI1_IRQHandler          0x800'1621         Code  Wk  startup_stm32f103xb.o [1]
+SPI2_IRQHandler          0x800'1625         Code  Wk  startup_stm32f103xb.o [1]
+SVC_Handler              0x800'154f    0x2  Code  Gb  stm32f1xx_it.o [2]
+SysTick_Handler          0x800'1555    0x4  Code  Gb  stm32f1xx_it.o [2]
+SystemClock_Config       0x800'0d07   0x66  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'0518    0x4  Data  Gb  system_stm32f1xx.o [3]
+SystemInit               0x800'1569    0x2  Code  Gb  system_stm32f1xx.o [3]
+TAMPER_IRQHandler        0x800'159d         Code  Wk  startup_stm32f103xb.o [1]
+TIM1_BRK_IRQHandler      0x800'15f5         Code  Wk  startup_stm32f103xb.o [1]
+TIM1_CC_IRQHandler       0x800'1601         Code  Wk  startup_stm32f103xb.o [1]
+TIM1_TRG_COM_IRQHandler
+                         0x800'15fd         Code  Wk  startup_stm32f103xb.o [1]
+TIM1_UP_IRQHandler       0x800'15f9         Code  Wk  startup_stm32f103xb.o [1]
+TIM2_IRQHandler          0x800'1605         Code  Wk  startup_stm32f103xb.o [1]
+TIM3_IRQHandler          0x800'1609         Code  Wk  startup_stm32f103xb.o [1]
+TIM4_IRQHandler          0x800'160d         Code  Wk  startup_stm32f103xb.o [1]
+USART1_IRQHandler        0x800'1629         Code  Wk  startup_stm32f103xb.o [1]
+USART2_IRQHandler        0x800'162d         Code  Wk  startup_stm32f103xb.o [1]
+USART3_IRQHandler        0x800'1631         Code  Wk  startup_stm32f103xb.o [1]
+USBWakeUp_IRQHandler     0x800'163d         Code  Wk  startup_stm32f103xb.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                         0x800'15e1         Code  Wk  startup_stm32f103xb.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                         0x800'15e5         Code  Wk  startup_stm32f103xb.o [1]
+UsageFault_Handler       0x800'154d    0x2  Code  Gb  stm32f1xx_it.o [2]
+WWDG_IRQHandler          0x800'1595         Code  Wk  startup_stm32f103xb.o [1]
+__NVIC_SetPriority       0x800'1331   0x1a  Code  Lc  stm32f1xx_hal_cortex.o [5]
+__aeabi_memset           0x800'12c9         Code  Gb  ABImemset.o [7]
+__cmain                  0x800'14e1         Code  Gb  cmain.o [7]
+__exit                   0x800'1515   0x14  Code  Gb  exit.o [8]
+__iar_Memset             0x800'12c9         Code  Gb  ABImemset.o [7]
+__iar_Memset_word        0x800'12d1         Code  Gb  ABImemset.o [7]
+__iar_data_init3         0x800'1499   0x28  Code  Gb  data_init.o [7]
+__iar_lz77_init_single3
+                         0x800'0647   0x7e  Code  Gb  lz77_init_single.o [7]
+__iar_program_start      0x800'1529         Code  Gb  cstartup_M.o [7]
+__iar_zero_init3         0x800'1461   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'14ff    0x4  Code  Gb  low_level_init.o [6]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f103xb.o [1]
+_call_main               0x800'14ed         Code  Gb  cmain.o [7]
+_exit                    0x800'1509         Code  Gb  cexit.o [7]
+exit                     0x800'1503    0x4  Code  Gb  exit.o [6]
+gg                      0x2000'0572    0x2  Data  Gb  main.o [2]
+hi2c1                   0x2000'051c   0x54  Data  Gb  i2c.o [2]
+main                     0x800'0c1d   0xda  Code  Gb  main.o [2]
+memset                   0x800'0de5   0x14  Code  Gb  memset.o [7]
+nextIsRus               0x2000'000a    0x1  Data  Gb  lcd096.o [4]
+nextIsRus2              0x2000'000b    0x1  Data  Gb  lcd096.o [4]
+sendCommand              0x800'105d    0x8  Code  Gb  lcd096.o [4]
+temp                    0x2000'0570    0x2  Data  Gb  lcd096.o [4]
+temp_char               0x2000'0000    0x8  Data  Gb  lcd096.o [4]
+uwTick                  0x2000'0510    0x4  Data  Gb  stm32f1xx_hal.o [5]
+uwTickFreq              0x2000'050c    0x1  Data  Gb  stm32f1xx_hal.o [5]
+uwTickPrio              0x2000'0514    0x4  Data  Gb  stm32f1xx_hal.o [5]
+
+
+[1] = C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\EWARM
+[2] = C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Application\User\Core
+[3] = C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\CMSIS
+[4] = C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\Lib\src
+[5] = C:\Users\TractAvt\Desktop\Мои устройства\bluepill\oled_0_96\EWARM\oled_0_96\Obj\Drivers\STM32F1xx_HAL_Driver
+[6] = dl7M_tln.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  5'568 bytes of readonly  code memory
+    991 bytes of readonly  data memory
+  2'420 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
